@@ -9,7 +9,7 @@ Welcome to your central **Resume Workspace**! This directory contains your modul
 | Variant Name | Target Role | Typst Source (`.typ`) | Compiled PDF (`.pdf`) | Markdown File (`.md`) |
 | :--- | :--- | :--- | :--- | :--- |
 | **Java Cloud Full-Stack Resume** | Java 21, Spring Boot, React, Microservices, AWS, Camunda BPM, Apache Camel | [mahendra_sh_fullstack_resume.typ](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_fullstack_resume.typ) | [mahendra_sh_fullstack_resume.pdf](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_fullstack_resume.pdf) | [mahendra_sh_fullstack_resume.md](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_fullstack_resume.md) |
-| **Data Analysis & LLMOps Resume** | LLMOps, Data Analysis, Python, Advanced SQL, Langfuse, Power BI, F1/Drift Metrics | [mahendra_sh_data_analysis_fullstack_resume.typ](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_data_analysis_fullstack_resume.typ) | [mahendra_sh_data_analysis_fullstack_resume.pdf](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_data_analysis_fullstack_resume.pdf) | [mahendra_sh_data_analysis_fullstack_resume.md](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_data_analysis_fullstack_resume.md) |
+| **Backend & Data Engineer Resume** | Backend & LLMOps, Data Engineering, Advanced SQL, Python, Power BI, Telemetry | [mahendra_sh_data_engineer_resume.typ](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_data_engineer_resume.typ) | [mahendra_sh_data_engineer_resume.pdf](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_data_engineer_resume.pdf) | [mahendra_sh_data_engineer_resume.md](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_data_engineer_resume.md) |
 | **Remote Full-Stack Resume** | Remote Software Engineering | [mahendra_sh_remote.resume.typ](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_remote.resume.typ) | [mahendra_sh_remote.resume.pdf](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_remote.resume.pdf) | — |
 | **Standard Resume Variant** | General Software Engineer | [mahendra_sh_resume.typ](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_resume.typ) | [mahendra_sh_resume.pdf](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_resume.pdf) | — |
 
@@ -19,10 +19,10 @@ Welcome to your central **Resume Workspace**! This directory contains your modul
 
 ### Primary Source & Output Files
 * **[mahendra_sh_fullstack_resume.pdf](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_fullstack_resume.pdf)**: Main 1-page full-stack software engineer resume PDF.
-* **[mahendra_sh_data_analysis_fullstack_resume.pdf](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_data_analysis_fullstack_resume.pdf)**: Tailored 1-page PDF for LLMOps & Data Analysis roles (NavaX / ArisGlobal IJB target).
+* **[mahendra_sh_data_engineer_resume.pdf](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_data_engineer_resume.pdf)**: 1-page PDF for Backend, LLMOps & Data Engineering roles.
 * **[mahendra_sh_fullstack_resume.typ](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_fullstack_resume.typ)**: Typst layout source code for the full-stack resume.
-* **[mahendra_sh_data_analysis_fullstack_resume.typ](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_data_analysis_fullstack_resume.typ)**: Typst layout source code for the LLMOps resume.
-* **[mahendra_sh_fullstack_resume.md](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_fullstack_resume.md)** & **[mahendra_sh_data_analysis_fullstack_resume.md](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_data_analysis_fullstack_resume.md)**: Clean Markdown versions for easy copy-pasting into online job application forms.
+* **[mahendra_sh_data_engineer_resume.typ](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_data_engineer_resume.typ)**: Typst layout source code for the Data Engineer resume.
+* **[mahendra_sh_fullstack_resume.md](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_fullstack_resume.md)** & **[mahendra_sh_data_engineer_resume.md](file:///Users/mahendra/Desktop/reseume-make/mahendra_sh_data_engineer_resume.md)**: Clean Markdown versions for online job application portals.
 
 ### Reference Documents
 * **[my-new-reusme.pdf](file:///Users/mahendra/Desktop/reseume-make/my-new-reusme.pdf)**: Raw imported resume draft reference.
@@ -41,14 +41,14 @@ Welcome to your central **Resume Workspace**! This directory contains your modul
 # Recompile Full-Stack Resume
 typst compile mahendra_sh_fullstack_resume.typ mahendra_sh_fullstack_resume.pdf
 
-# Recompile Data Analysis / LLMOps Resume
-typst compile mahendra_sh_data_analysis_fullstack_resume.typ mahendra_sh_data_analysis_fullstack_resume.pdf
+# Recompile Backend & Data Engineer Resume
+typst compile mahendra_sh_data_engineer_resume.typ mahendra_sh_data_engineer_resume.pdf
 ```
 
 ### Verify PDF Page Count (Must be 1 Page)
 ```bash
 python3 -c "import pypdf; print('Pages:', len(pypdf.PdfReader('mahendra_sh_fullstack_resume.pdf').pages))"
-python3 -c "import pypdf; print('Pages:', len(pypdf.PdfReader('mahendra_sh_data_analysis_fullstack_resume.pdf').pages))"
+python3 -c "import pypdf; print('Pages:', len(pypdf.PdfReader('mahendra_sh_data_engineer_resume.pdf').pages))"
 ```
 
 ### Git Version Control Commands
