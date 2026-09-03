@@ -1,7 +1,7 @@
 # Mahendra S H
 **Backend & LLMOps Engineer | Python | Advanced SQL | Java | AWS**
 
-Kalaburagi / Hyderabad, India | +91-7892041114 | [mahendrashongunti@gmail.com](mailto:mahendrashongunti@gmail.com) | [mahendrash.vercel.app](https://mahendrash.vercel.app)  
+Hyderabad, India | +91-7892041114 | [mahendrashongunti@gmail.com](mailto:mahendrashongunti@gmail.com) | [mahendrash.vercel.app](https://mahendrash.vercel.app)  
 [linkedin.com/in/mahendra-s-h-14a74721a](https://www.linkedin.com/in/mahendra-s-h-14a74721a/) | [github.com/MahendraSH](https://github.com/MahendraSH)
 
 ---

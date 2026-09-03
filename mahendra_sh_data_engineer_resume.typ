@@ -53,7 +53,7 @@
   #text(size: 8.0pt, weight: "bold", fill: rgb("#0369a1"))[Backend & LLMOps Engineer | Python | Advanced SQL | Java | AWS] \
   #v(1.0pt)
   #text(size: 7.5pt, fill: rgb("#475569"))[
-    Kalaburagi / Hyderabad, India | +91-7892041114 | #link("mailto:mahendrashongunti@gmail.com")[mahendrashongunti\@gmail.com] | #link("https://mahendrash.vercel.app")[mahendrash.vercel.app] \
+    Hyderabad, India | +91-7892041114 | #link("mailto:mahendrashongunti@gmail.com")[mahendrashongunti\@gmail.com] | #link("https://mahendrash.vercel.app")[mahendrash.vercel.app] \
     #link("https://www.linkedin.com/in/mahendra-s-h-14a74721a/")[linkedin.com/in/mahendra-s-h-14a74721a] | #link("https://github.com/MahendraSH")[github.com/MahendraSH]
   ]
 ]
