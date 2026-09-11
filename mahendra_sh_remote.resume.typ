@@ -6,56 +6,41 @@
 #set text(
   font: ("Helvetica", "Arial", "Liberation Sans"),
   size: 8.0pt,
-  fill: rgb("#1e293b"), // Slate 800
+  fill: rgb("#000000"), // Slate 800
 )
 
 #set par(leading: 0.72em)
 #set list(marker: ([•],), spacing: 1.4pt)
-#show heading: set text(fill: rgb("#0f172a")) // Slate 900
+#show heading: set text(fill: rgb("#000000")) // Slate 900
 
 // Define custom styling for headers and dividers
-#let section-divider = line(length: 100%, stroke: 0.5pt + rgb("#cbd5e1"))
+#let section-divider = line(length: 100%, stroke: 0.5pt + rgb("#000000"))
 
 #let section(title) = {
   v(1pt)
-  text(size: 8.5pt, weight: "bold", fill: rgb("#0284c7"))[#title] // sky-600
+  text(size: 9.5pt, weight: "bold", fill: rgb("#000000"))[#upper(title)]
   v(-7pt)
   section-divider
   v(0.5pt)
 }
 
 #let work-item-header(company, location, date, role) = {
-  grid(
-    columns: (1fr, auto),
-    rows: (auto),
-    text(weight: "bold", size: 8.0pt)[#company] + if role != "" [ --- #text(weight: "semibold", style: "italic", fill: rgb("#0f172a"))[#role] ] else [],
-    text(weight: "bold", fill: rgb("#475569"))[#date]
-  )
-  if location != "" {
-    v(-4pt)
-    grid(
-      columns: (1fr, auto),
-      text(style: "italic", fill: rgb("#64748b"), size: 7.5pt)[#location],
-      []
-    )
-  }
+  text(weight: "bold", size: 8.5pt)[#company] + [ --- ] + text(weight: "bold", size: 8.5pt)[#role] + [ | ] + text(size: 8.5pt)[#date | #location]
+  v(2pt)
 }
 
 #let project-item(title, tech, date) = {
-  grid(
-    columns: (1fr, auto),
-    text(weight: "bold", size: 8.0pt)[#title] + if tech != "" [ #text(weight: "regular", size: 7.5pt, fill: rgb("#0284c7"))[ (#tech)] ] else [],
-    text(weight: "bold", fill: rgb("#475569"))[#date]
-  )
+  text(weight: "bold", size: 8.5pt)[#title] + if tech != "" [ --- #tech ] else []
+  v(2pt)
 }
 
 // Header Section - Removed phone, email, socials, portfolio and github links
 #align(center)[
-  #text(size: 12pt, weight: "bold")[Mahendra S H] \
+  #text(size: 12pt, weight: "bold")[MAHENDRA S H] \
   #v(-3pt)
-  #text(size: 8.5pt, weight: "bold", fill: rgb("#0284c7"))[Frontend & Backend Developer] \
+  #text(size: 8.5pt, weight: "bold", fill: rgb("#000000"))[Frontend & Backend Developer] \
   #v(0.5pt)
-  #text(size: 7.5pt, fill: rgb("#475569"))[
+  #text(size: 7.5pt, fill: rgb("#000000"))[
     Hyderabad, India
   ]
 ]
@@ -155,12 +140,12 @@
   columns: (1fr, auto),
   rows: (auto),
   text(weight: "bold", size: 8.2pt)[National Institute of Engineering (NIE)] + [ --- B.Tech in Computer Science & Engineering],
-  text(weight: "bold", fill: rgb("#475569"))[Graduated: May 2024],
+  text(weight: "bold", fill: rgb("#000000"))[Graduated: May 2024],
 )
 #v(-4pt)
 #grid(
   columns: (1fr, auto),
   rows: (auto),
-  text(style: "italic", fill: rgb("#475569"))[Grade: 7.3 / 10 CGPA | Relevant Coursework: Data Structures, Database Systems, Software Engineering],
-  text(style: "italic", fill: rgb("#64748b"))[Mysore, India]
+  text(style: "italic", fill: rgb("#000000"))[Grade: 7.3 / 10 CGPA | Relevant Coursework: Data Structures, Database Systems, Software Engineering],
+  text(style: "italic", fill: rgb("#000000"))[Mysore, India]
 )

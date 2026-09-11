@@ -11,7 +11,7 @@
 
 #set par(leading: 0.65em)
 #set list(marker: ([•],), spacing: 3.2pt)
-#show heading: set text(fill: rgb("#0f172a")) // Slate 900
+#show heading: set text(fill: rgb("#000000")) // Slate 900
 #show strong: it => text(weight: "medium", style: "italic", fill: rgb("#0369a1"))[#it.body]
 
 // Modern section style with a clean bottom stroke
@@ -24,37 +24,23 @@
 }
 
 #let work-item-header(company, location, date, role) = {
-  grid(
-    columns: (1fr, auto),
-    rows: (auto),
-    text(weight: "bold", size: 8.5pt, fill: rgb("#0f172a"))[#company] + [ --- ] + text(weight: "medium", style: "italic", fill: rgb("#334155"))[#role],
-    text(weight: "bold", fill: rgb("#475569"))[#date]
-  )
-  v(-4pt)
-  grid(
-    columns: (1fr, auto),
-    text(style: "italic", fill: rgb("#475569"), size: 7.8pt)[#location],
-    []
-  )
+  text(weight: "bold", size: 8.5pt)[#company] + [ --- ] + text(weight: "bold", size: 8.5pt)[#role] + [ | ] + text(size: 8.5pt)[#date | #location]
+  v(2pt)
 }
 
 #let project-item(title, tech, date) = {
-  grid(
-    columns: (1fr, auto),
-    text(weight: "bold", size: 8.5pt, fill: rgb("#0f172a"))[#title] + if tech != "" [ #text(weight: "medium", size: 7.8pt, fill: rgb("#0369a1"))[ • #tech] ] else [],
-    text(weight: "bold", fill: rgb("#475569"))[#date]
-  )
+  text(weight: "bold", size: 8.5pt)[#title] + if tech != "" [ --- #tech ] else []
+  v(2pt)
 }
 
 // Header Section
 #align(center)[
-  #text(size: 13.5pt, weight: "bold", fill: rgb("#0f172a"))[Mahendra S H] \
+  #text(size: 13.5pt, weight: "bold", fill: rgb("#000000"))[MAHENDRA S H] \
   #v(-3.5pt)
   #text(size: 8.0pt, weight: "bold", fill: rgb("#0369a1"))[Backend & LLMOps Engineer | Python | Advanced SQL | Java | AWS] \
   #v(1.0pt)
-  #text(size: 7.5pt, fill: rgb("#475569"))[
-    Hyderabad, India | +91-7892041114 | #link("mailto:mahendrashongunti@gmail.com")[mahendrashongunti\@gmail.com] | #link("https://mahendrash.vercel.app")[mahendrash.vercel.app] \
-    #link("https://www.linkedin.com/in/mahendra-s-h-14a74721a/")[linkedin.com/in/mahendra-s-h-14a74721a] | #link("https://github.com/MahendraSH")[github.com/MahendraSH]
+  #text(size: 7.5pt, fill: rgb("#000000"))[
+    Hyderabad, India | +91-7892041114 | #link("mailto:mahendrashongunti@gmail.com")[mahendrashongunti\@gmail.com] | #link("https://mahendrash.vercel.app")[mahendrash.vercel.app] | #link("https://www.LinkedIn/")[LinkedIn] | #link("https://GitHub")[GitHub]
   ]
 ]
 
@@ -139,6 +125,6 @@ Data-driven Backend and LLMOps Engineer with enterprise experience orchestrating
 #grid(
   columns: (1fr, auto),
   rows: (auto),
-  text(style: "italic", fill: rgb("#475569"))[CGPA: 7.3 / 10 | Relevant Coursework: Database Systems, Software Engineering, DBMS, Object-Oriented Design],
-  text(style: "italic", fill: rgb("#475569"))[Mysore, India]
+  text(style: "italic", fill: rgb("#000000"))[CGPA: 7.3 / 10 | Relevant Coursework: Database Systems, Software Engineering, DBMS, Object-Oriented Design],
+  text(style: "italic", fill: rgb("#000000"))[Mysore, India]
 )
