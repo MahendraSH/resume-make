@@ -18,7 +18,7 @@
   #text(size: 11pt, weight: "bold", fill: primary-color)[Java Cloud Full-Stack Engineer | Java | Spring Boot | React | Microservices | AWS]\
   #v(2pt)
   #text(size: 9.5pt)[
-    Hyderabad, India | +91-9343518823 | #link("mailto:maahi2001sh@gmail.com")[maahi2001sh\@gmail.com]
+    Hyderabad, India | +91-9343518823 | #link("mailto:maahi2001sh@gmail.com")[maahi2001sh\@gmail.com] | #link("https://github.com/MahendraSH")[GitHub]
   ]
 ]
 
