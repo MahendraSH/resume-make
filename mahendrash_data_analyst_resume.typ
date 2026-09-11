@@ -1,4 +1,4 @@
-#set document(title: "Mahendra S H - Resume", author: "Mahendra S H")
+#set document(title: "Mahendra Hongunti - Resume", author: "Mahendra Hongunti")
 #set page(
   paper: "a4",
   margin: (x: 0.5in, y: 0.5in)
@@ -9,16 +9,16 @@
   fill: rgb("#000000")
 )
 
-#let primary-color = rgb("#000000") // A nice professional blue
+#let primary-color = rgb("#000000")
 
 // Header
 #align(center)[
-  #text(size: 16pt, weight: "bold")[MAHENDRA S H]\
+  #text(size: 16pt, weight: "bold")[MAHENDRA HONGUNTI]\
   #v(2pt)
   #text(size: 11pt, weight: "bold", fill: primary-color)[Data Analyst | Software Engineer | SQL | Power BI | Java | Spring Boot]\
   #v(2pt)
   #text(size: 9.5pt)[
-    Hyderabad, India | +91-7892041114 | #link("mailto:mahendrashongunti@gmail.com")[mahendrashongunti\@gmail.com] | #link("https://mahendrash.vercel.app")[mahendrash.vercel.app] | #link("https://LinkedIn")[LinkedIn] | #link("https://GitHub")[GitHub]
+    Hyderabad, India | +91-9180165234 | #link("mailto:maahi2001sh@gmail.com")[maahi2001sh\@gmail.com] | #link("https://github.com/MahendraSH")[GitHub]
   ]
 ]
 
