@@ -9,8 +9,7 @@ Welcome to your central **Resume Workspace**! This directory contains your modul
 | Variant Name | Target Role | Typst Source (`.typ`) | Compiled PDF (`.pdf`) | Markdown File (`.md`) |
 | :--- | :--- | :--- | :--- | :--- |
 | **Java Cloud Full-Stack Resume** | Java 21, Spring Boot, React, Microservices, AWS | [mahendrash_fullstack_resume.typ](mahendrash_fullstack_resume.typ) | [mahendrash_fullstack_resume.pdf](mahendrash_fullstack_resume.pdf) | [mahendrash_fullstack_resume.md](mahendrash_fullstack_resume.md) |
-| **Fullstack AI Resume** | Fullstack, AI Integrations | [mahendrash_fullstack_ai_resume.typ](mahendrash_fullstack_ai_resume.typ) | [mahendrash_fullstack_ai_resume.pdf](mahendrash_fullstack_ai_resume.pdf) | [mahendrash_fullstack_ai_resume.md](mahendrash_fullstack_ai_resume.md) |
-| **Backend & Data Engineer Resume** | Data Engineering, Advanced SQL, Python | [mahendra_sh_data_engineer_resume.typ](mahendra_sh_data_engineer_resume.typ) | [mahendra_sh_data_engineer_resume.pdf](mahendra_sh_data_engineer_resume.pdf) | [mahendra_sh_data_engineer_resume.md](mahendra_sh_data_engineer_resume.md) |
+| **General Full-Stack Resume** | Full-Stack Engineer (Alternate Contact) | [mahendrahongunti.typ](mahendrahongunti.typ) | [mahendrahongunti.pdf](mahendrahongunti.pdf) | [mahendrahongunti.md](mahendrahongunti.md) |
 | **Data Analyst Resume** | Data Analysis, Power BI, SQL | [mahendrash_data_analyst_resume.typ](mahendrash_data_analyst_resume.typ) | [mahendrash_data_analyst_resume.pdf](mahendrash_data_analyst_resume.pdf) | [mahendrash_data_analyst_resume.md](mahendrash_data_analyst_resume.md) |
 
 ---
@@ -18,10 +17,9 @@ Welcome to your central **Resume Workspace**! This directory contains your modul
 ## 📂 Directory File Inventory
 
 ### Primary Source & Output Files
-* **[mahendrash_fullstack_resume.pdf](mahendrash_fullstack_resume.pdf)**: Main 1-page full-stack software engineer resume PDF.
-* **[mahendrash_fullstack_ai_resume.pdf](mahendrash_fullstack_ai_resume.pdf)**: Fullstack and AI Engineer resume PDF.
-* **[mahendra_sh_data_engineer_resume.pdf](mahendra_sh_data_engineer_resume.pdf)**: 1-page PDF for Backend & Data Engineering roles.
-* **[mahendrash_data_analyst_resume.pdf](mahendrash_data_analyst_resume.pdf)**: 1-page PDF for Data Analyst roles.
+* **[mahendrash_fullstack_resume.pdf](mahendrash_fullstack_resume.pdf)**: Full-stack software engineer resume PDF (Mahendra S H).
+* **[mahendrahongunti.pdf](mahendrahongunti.pdf)**: Full-stack software engineer resume PDF (Mahendra Hongunti, alternate contact).
+* **[mahendrash_data_analyst_resume.pdf](mahendrash_data_analyst_resume.pdf)**: Data Analyst resume PDF.
 
 ### Reference Documents
 * **[Releving-letter-infosys.pdf](Releving-letter-infosys.pdf)**: Infosys relieving letter reference.
