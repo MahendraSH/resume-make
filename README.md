@@ -1,32 +1,41 @@
 # Resume Workspace & Directory Index
 
-Welcome to your central **Resume Workspace**! This directory contains your modular resume source files written in [Typst](https://typst.app/), their compiled single-page PDF outputs, synchronized Markdown versions, and reference documents.
+Welcome to your central **Resume Workspace**! This directory contains your modular resume source files written in [Typst](https://typst.app/), their compiled PDF outputs, synchronized Markdown versions, and reference documents.
 
 ---
 
 ## 📌 Resume Variants Overview
 
-| Variant Name | Target Role | Typst Source (`.typ`) | Compiled PDF (`.pdf`) | Markdown File (`.md`) |
-| :--- | :--- | :--- | :--- | :--- |
-| **Java Cloud Full-Stack Resume** | Java 21, Spring Boot, React, Microservices, AWS | [mahendrash_fullstack_resume.typ](mahendrash_fullstack_resume.typ) | [mahendrash_fullstack_resume.pdf](mahendrash_fullstack_resume.pdf) | [mahendrash_fullstack_resume.md](mahendrash_fullstack_resume.md) |
-| **General Full-Stack Resume** | Full-Stack Engineer (Alternate Contact) | [mahendrahongunti.typ](mahendrahongunti.typ) | [mahendrahongunti.pdf](mahendrahongunti.pdf) | [mahendrahongunti.md](mahendrahongunti.md) |
-| **Data Analyst Resume** | Data Analysis, Power BI, SQL | [mahendrash_data_analyst_resume.typ](mahendrash_data_analyst_resume.typ) | [mahendrash_data_analyst_resume.pdf](mahendrash_data_analyst_resume.pdf) | [mahendrash_data_analyst_resume.md](mahendrash_data_analyst_resume.md) |
+### `mahendrash/` — Mahendra S H (mahendrashongunti@gmail.com | +91-7892041114)
+
+| Variant | Typst Source | PDF | Markdown |
+| :--- | :--- | :--- | :--- |
+| **Full-Stack Resume** | [mahendrash_fullstack_resume.typ](mahendrash/mahendrash_fullstack_resume.typ) | [mahendrash_fullstack_resume.pdf](mahendrash/mahendrash_fullstack_resume.pdf) | [mahendrash_fullstack_resume.md](mahendrash/mahendrash_fullstack_resume.md) |
+| **Data Analyst Resume** | [mahendrash_data_analyst_resume.typ](mahendrash/mahendrash_data_analyst_resume.typ) | [mahendrash_data_analyst_resume.pdf](mahendrash/mahendrash_data_analyst_resume.pdf) | [mahendrash_data_analyst_resume.md](mahendrash/mahendrash_data_analyst_resume.md) |
+
+### `maahi2001sh-mahendrahongunti/` — Mahendra Hongunti (maahi2001sh@gmail.com | +91-9180165234)
+
+| Variant | Typst Source | PDF | Markdown |
+| :--- | :--- | :--- | :--- |
+| **Full-Stack Resume** | [mahendrahongunti_fullstack.typ](maahi2001sh-mahendrahongunti/mahendrahongunti_fullstack.typ) | [mahendrahongunti_fullstack.pdf](maahi2001sh-mahendrahongunti/mahendrahongunti_fullstack.pdf) | [mahendrahongunti_fullstack.md](maahi2001sh-mahendrahongunti/mahendrahongunti_fullstack.md) |
+| **Data Analyst Resume** | [mahendrahongunti_data_analyst_resume.typ](maahi2001sh-mahendrahongunti/mahendrahongunti_data_analyst_resume.typ) | [mahendrahongunti_data_analyst_resume.pdf](maahi2001sh-mahendrahongunti/mahendrahongunti_data_analyst_resume.pdf) | [mahendrahongunti_data_analyst_resume.md](maahi2001sh-mahendrahongunti/mahendrahongunti_data_analyst_resume.md) |
 
 ---
 
-## 📂 Directory File Inventory
+## 📂 Directory Structure
 
-### Primary Source & Output Files
-* **[mahendrash_fullstack_resume.pdf](mahendrash_fullstack_resume.pdf)**: Full-stack software engineer resume PDF (Mahendra S H).
-* **[mahendrahongunti.pdf](mahendrahongunti.pdf)**: Full-stack software engineer resume PDF (Mahendra Hongunti, alternate contact).
-* **[mahendrash_data_analyst_resume.pdf](mahendrash_data_analyst_resume.pdf)**: Data Analyst resume PDF.
-
-### Reference Documents
-* **[Releving-letter-infosys.pdf](Releving-letter-infosys.pdf)**: Infosys relieving letter reference.
-
-### Project & Version Control Files
-* **`.git/`**: Git repository folder tracking version history.
-* **`.gitignore`**: Git rules file excluding `.DS_Store` and build scratch files.
+```
+reseume-make/
+├── mahendrash/                          # Mahendra S H (primary contact)
+│   ├── mahendrash_fullstack_resume.typ/pdf/md
+│   └── mahendrash_data_analyst_resume.typ/pdf/md
+├── maahi2001sh-mahendrahongunti/         # Mahendra Hongunti (alternate contact)
+│   ├── mahendrahongunti_fullstack.typ/pdf/md
+│   └── mahendrahongunti_data_analyst_resume.typ/pdf/md
+├── infosys-documents/                   # Reference documents
+│   └── Releving-letter-infosys.pdf
+└── README.md
+```
 
 ---
 
@@ -34,11 +43,10 @@ Welcome to your central **Resume Workspace**! This directory contains your modul
 
 ### Recompile Typst Source to PDF
 ```bash
-# Recompile Full-Stack Resume
-typst compile mahendrash_fullstack_resume.typ mahendrash_fullstack_resume.pdf
-
-# Recompile All Resumes
-for f in *.typ; do typst compile "$f" "${f%.typ}.pdf"; done
+# Recompile all resumes in all directories
+for d in mahendrash maahi2001sh-mahendrahongunti; do
+  for f in "$d"/*.typ; do typst compile "$f" "${f%.typ}.pdf"; done
+done
 ```
 
 ### Git Version Control Commands
