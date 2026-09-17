@@ -120,9 +120,9 @@
 // Selected Projects
 #section("Selected Projects")
 
-#project("Cargo Readiness — CMA CGM Project", "Java 21, Spring Boot, Microservices, Kafka, AWS SNS/SQS/S3, Camunda, Spring Batch, React, PostgreSQL")
+#project("Cargo Readiness — CMA CGM", "Java 21, Spring Boot, Kafka, AWS, Camunda, Spring Batch, React, PostgreSQL")
 #list(
-  [Built event-driven backend workflows for container readiness assessment; automated *50k+* daily booking checks and delivered *React* operational dashboards.]
+  [End-to-end event-driven microservices for container readiness; automated *50k+* daily booking validations and delivered operational *React* dashboards.]
 )
 #v(6pt)
 
@@ -135,12 +135,6 @@
 #project("SaaS Form Builder Platform", "Next.js, React, Node.js, Express, PostgreSQL, AWS")
 #list(
   [Built a *no-code* SaaS form builder with drag-and-drop creation, secure *REST APIs*, analytics tracking, and embeddable scripts used across *20+ client sites*.]
-)
-#v(6pt)
-
-#project("E-Commerce Platform", "Next.js, React, Tailwind CSS, Shadcn UI, Prisma ORM, MySQL, AWS S3")
-#list(
-  [Built a full-stack e-commerce platform with admin product/catalog management, customer order processing, scalable *REST APIs*, and *AWS S3* media storage.]
 )
 #v(6pt)
 

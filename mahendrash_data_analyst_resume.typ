@@ -120,9 +120,7 @@
 
 #project("Cargo Readiness — CMA CGM", "SQL, PostgreSQL, Power BI, Java 21, Spring Boot, Kafka")
 #list(
-  [Developed analytical views and KPI reporting for monitoring operational performance, exceptions, and verification status.],
-  [Used PostgreSQL and SQL analysis to support reporting, data validation, and actionable operational insights.],
-  [Automated verification of *50K+ daily bookings* using Spring Batch and orchestrated workflows via Camunda BPM.]
+  [Developed KPI reporting and analytical views for operational performance; automated verification of *50K+ daily bookings* using Spring Batch and Camunda BPM.]
 )
 #v(6pt)
 
@@ -143,8 +141,7 @@
 #project("E-Commerce REST API Platform", "Python, Django, Flask, FastAPI, PostgreSQL, Node.js, Express.js")
 #list(
   [Architected and developed a scalable e-commerce REST API with *Django REST Framework*, featuring product catalog, cart, order management, and user authentication.],
-  [Built a lightweight microservice layer using *Flask* for payment webhook handling and notification services.],
-  [Developed high-performance async API endpoints with *FastAPI* for real-time inventory tracking and search, achieving *sub-50ms* response times.],
+  [Built a lightweight microservice layer using *Flask* for payment webhooks and *FastAPI* async endpoints achieving *sub-50ms* response times.],
   [Implemented a *Node.js/Express.js* API gateway for routing, rate limiting, and request aggregation across backend services.]
 )
 // Certifications
