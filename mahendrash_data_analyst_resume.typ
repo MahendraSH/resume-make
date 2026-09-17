@@ -15,10 +15,10 @@
 #align(center)[
   #text(size: 16pt, weight: "bold")[MAHENDRA HONGUNTI]\
   #v(2pt)
-  #text(size: 11pt, weight: "bold", fill: primary-color)[Data Analyst | Software Engineer | SQL | Power BI | Java | Spring Boot]\
+  #text(size: 11pt, weight: "bold", fill: primary-color)[Data Analyst & Software Engineer | SQL, Power BI & Python Ecosystems]\
   #v(2pt)
   #text(size: 9.5pt)[
-    Hyderabad, India | +91-9180165234 | #link("mailto:maahi2001sh@gmail.com")[maahi2001sh\@gmail.com] | #link("https://github.com/MahendraSH")[GitHub]
+    Hyderabad, India | +91-9180165234 | #link("mailto:maahi2001sh@gmail.com")[maahi2001sh\@gmail.com] | #link("https://github.com/MahendraSH")[GitHub] | #text(weight: "bold")[Immediate Joiner]
   ]
 ]
 
@@ -59,10 +59,9 @@
 // Professional Summary
 #section("Professional Summary")
 #list(
-  [*Data Analyst & Software Engineer* with 3+ years of experience in data analysis, business intelligence, full-stack applications, and enterprise software development.],
-  [Experienced in extracting, transforming, and validating large operational datasets, developing KPI-driven dashboards, and optimizing database performance.],
-  [Strong technical stack including *SQL, PostgreSQL, Power BI, Python, Java 21, Spring Boot, React, and AWS*.],
-  [Hands-on experience across the complete data lifecycle, including data extraction, KPI development, interactive reporting, Root Cause Analysis (RCA), and translating business requirements into data-driven solutions.]
+  [Data Analyst & Software Engineer with *3+ years of combined professional and enterprise experience* in data analysis, business intelligence, and full-stack application development.],
+  [Skilled in extracting, transforming, and validating large operational datasets (*50K+ daily records*), developing KPI-driven *Power BI* dashboards, and optimizing *PostgreSQL* performance.],
+  [Strong technical stack spanning *SQL, Python (Pandas, NumPy), Power BI (DAX, Power Query), Java 21, Spring Boot, React*, and *AWS* cloud services.]
 )
 
 // Technical Skills
@@ -73,7 +72,7 @@
   [*Data Analytics & BI:*], [Power BI, DAX, Power Query, Advanced Excel, KPI Development, EDA, Root Cause Analysis, Business Reporting],
   [*Languages & Specs:*], [SQL, Python, Java 21, JavaScript (ES6+), TypeScript, HTML5, CSS3],
   [*Databases:*], [PostgreSQL, MySQL, SQL Query Optimization, Complex Joins, CTEs, Window Functions, Aggregations],
-  [*Backend & Cloud:*], [Spring Boot, Microservices, REST APIs, Apache Kafka, AWS (EC2, S3, SNS, SQS), Docker, CI/CD],
+  [*Backend & Cloud:*], [Django, Flask, FastAPI, Spring Boot, Node.js, Express.js, Microservices, REST APIs, Apache Kafka, AWS (EC2, S3, SNS, SQS), Docker, CI/CD],
   [*Frontend & Python:*], [React.js, Next.js, Tailwind CSS, Pandas, NumPy, Matplotlib, Jupyter Notebook]
 )
 
@@ -87,12 +86,10 @@
   subtitle: "Specialist Programmer / Data Analyst & Software Developer"
 )
 #list(
-  [Analyzed operational datasets containing *50K+ active bookings daily* to identify trends, process bottlenecks, and operational patterns.],
-  [Developed interactive *Power BI dashboards and reports* for monitoring operational KPIs, booking readiness, processing volumes, and exceptions.],
-  [Formulated complex *SQL queries (CTEs, joins, window functions)* in PostgreSQL to extract, aggregate, and validate data for analytical reporting.],
-  [Investigated data inconsistencies and performed Root Cause Analysis (RCA) to improve data quality and reporting reliability.],
-  [Architected enterprise backend services using *Java 21, Spring Boot, REST APIs*, and integrated Kafka and AWS for event-driven workflows.],
-  [Optimized PostgreSQL queries and backend data-access operations, contributing to a *20% improvement in API response times*.]
+  [Analyzed operational datasets containing *50K+ active bookings daily* for *CMA CGM*, identifying trends, process bottlenecks, and operational patterns using complex *SQL (CTEs, joins, window functions)* in PostgreSQL.],
+  [Developed interactive *Power BI dashboards and reports* for monitoring operational KPIs, booking readiness, processing volumes, and exceptions, improving decision-making efficiency.],
+  [Investigated data inconsistencies and performed *Root Cause Analysis (RCA)* to improve data quality and reporting reliability.],
+  [Optimized *PostgreSQL* queries and backend data-access operations, contributing to a *20% improvement in API response times*.]
 )
 #v(6pt)
 
@@ -103,9 +100,8 @@
   subtitle: "Freelance Full-Stack Developer"
 )
 #list(
-  [Designed database schemas and developed complex *SQL queries* for application reporting, filtering, aggregation, and analytics.],
-  [Built SaaS applications with user activity tracking, business metrics, and analytics dashboards using React, Node.js, and PostgreSQL.],
-  [Developed data-driven interfaces and data visualizations using React, Recharts, Material UI, and Tailwind CSS.]
+  [Designed database schemas and developed complex *SQL queries* for application reporting, filtering, aggregation, and analytics across *6+ production applications*.],
+  [Built data-driven *SaaS applications* with user activity tracking, business metrics, and analytics dashboards using *React, Node.js*, and *PostgreSQL*.]
 )
 #v(6pt)
 
@@ -141,6 +137,21 @@
 #list(
   [Built a no-code SaaS form builder with integrated analytics tracking for form usage, submissions, and user activity.],
   [Developed secure REST APIs and PostgreSQL data models, deploying embeddable scripts used across *20+ client websites*.]
+)
+#v(6pt)
+
+#project("E-Commerce REST API Platform", "Python, Django, Flask, FastAPI, PostgreSQL, Node.js, Express.js")
+#list(
+  [Architected and developed a scalable e-commerce REST API with *Django REST Framework*, featuring product catalog, cart, order management, and user authentication.],
+  [Built a lightweight microservice layer using *Flask* for payment webhook handling and notification services.],
+  [Developed high-performance async API endpoints with *FastAPI* for real-time inventory tracking and search, achieving *sub-50ms* response times.],
+  [Implemented a *Node.js/Express.js* API gateway for routing, rate limiting, and request aggregation across backend services.]
+)
+// Certifications
+#section("Certifications")
+#list(
+  [*Data Analyst Associate* — DataCamp _(Credential ID: DAA0011831242181 | Issued Sep 2026)_],
+  [*PostgreSQL & Advanced SQL Specialization* — DataCamp _(Joining Data & Manipulating Data in PostgreSQL | Issued Sep 2026)_]
 )
 
 // Education

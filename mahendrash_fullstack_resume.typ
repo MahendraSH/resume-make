@@ -15,10 +15,10 @@
 #align(center)[
   #text(size: 16pt, weight: "bold")[MAHENDRA S H]\
   #v(2pt)
-  #text(size: 11pt, weight: "bold", fill: primary-color)[Java Cloud Full-Stack Engineer | Java | Spring Boot | React | Microservices | AWS]\
+  #text(size: 11pt, weight: "bold", fill: primary-color)[Full-Stack Software Engineer | Java, Spring Boot & React Ecosystems]\
   #v(2pt)
   #text(size: 9.5pt)[
-    Hyderabad, India | +91-7892041114 | #link("mailto:mahendrashongunti@gmail.com")[mahendrashongunti\@gmail.com] | #link("https://mahendrash.vercel.app")[mahendrash.vercel.app] | #link("https://LinkedIn")[LinkedIn] | #link("https://GitHub")[GitHub]
+    Hyderabad, India | +91-7892041114 | #link("mailto:mahendrashongunti@gmail.com")[mahendrashongunti\@gmail.com] | #link("https://mahendrash.vercel.app")[Portfolio] | #link("https://linkedin.com/in/mahendra-s-h-14a74721a")[LinkedIn] | #link("https://github.com/MahendraSH")[GitHub] | #text(weight: "bold")[Immediate Joiner]
   ]
 ]
 
@@ -59,9 +59,9 @@
 // Professional Summary
 #section("Professional Summary")
 #list(
-  [*Java Cloud Full-Stack Engineer / Specialist Programmer* with 3+ years of enterprise software experience, plus hands-on full-stack development, using *Java 21, Spring Boot, React, microservices, REST APIs, PostgreSQL, and AWS*.],
-  [Experienced across backend engineering, event-driven systems, asynchronous messaging, *Spring Batch* processing, workflow automation, cloud infrastructure, database optimization, testing, *Docker*, and *CI/CD* quality practices.],
-  [Full-stack experience with *React, Next.js, TypeScript, Node.js*, responsive dashboards, secure authentication, *REST* integrations, and scalable SaaS applications.]
+  [Full-Stack Software Engineer with *3+ years of combined professional and enterprise experience* building scalable microservices and responsive web applications using *Java 21, Spring Boot, React, PostgreSQL*, and *AWS*.],
+  [Skilled in event-driven architectures, *Spring Batch* processing, workflow automation with *Camunda BPM*, cloud infrastructure (*AWS SQS/SNS/S3*), database optimization, *Docker*, and *CI/CD* pipelines.],
+  [Full-stack proficiency across *React, Next.js, TypeScript, Node.js*, responsive dashboards, secure *REST APIs*, and multi-tenant *SaaS* platforms.]
 )
 
 // Technical Skills
@@ -74,8 +74,7 @@
   [*Messaging & Cloud:*], [Apache Kafka, AWS EC2, S3, SNS, SQS, API Management],
   [*Frontend:*], [React.js, Next.js, Redux, React Query, TanStack Table v8, Tailwind CSS, Shadcn UI],
   [*Databases & ORM:*], [PostgreSQL, MySQL, MongoDB, Prisma ORM, SQL query optimization & indexing],
-  [*DevOps, QA & Tools:*], [Docker, CI/CD Pipelines, JUnit, Mockito, Git, GitHub, Code Reviews, RCA, Agile/Scrum, Kanban],
-  [*Security:*], [SSL/TLS, Secure Authentication, Data Privacy]
+  [*DevOps, QA & Tools:*], [Docker, CI/CD Pipelines, JUnit, Mockito, Git, GitHub, Code Reviews, RCA, Agile/Scrum, Kanban]
 )
 
 // Work Experience
@@ -88,13 +87,10 @@
   subtitle: "Specialist Programmer / Software Developer"
 )
 #list(
-  [Architected and engineered enterprise *microservices* using *Java 21, Spring Boot, RESTful APIs*, and *OpenAPI* for event-driven container readiness workflows.],
-  [Integrated *Apache Kafka, AWS SNS, AWS SQS, AWS S3*, and *Camunda BPM* for event-driven messaging, queue orchestration, and workflow automation, reducing manual verification overhead by *35%*.],
-  [Used *Spring Batch* to automate high-throughput end-date verification and backend checks, processing *50k+ active bookings* daily.],
-  [Developed responsive *React* dashboards using *React Query* and *TanStack Table*, improving operational decision-making efficiency.],
-  [Optimized *PostgreSQL* queries, reducing REST API response times by *20%* and improving system throughput.],
-  [Developed automated unit/integration tests with *JUnit* and *Mockito*; performed code reviews and Root Cause Analysis (RCA) while following *CI/CD* quality gates and *Docker* deployment practices.],
-  [Participated across planning, design, implementation, deployment, and maintenance within the enterprise SDLC; worked with secure authentication and *SSL/TLS* standards.]
+  [Architected microservices with *Java 21, Spring Boot*, and *OpenAPI* for *CMA CGM* container readiness workflows, integrating *AWS SQS, SNS, S3*, and *Camunda BPM* to automate decision pipelines and cut manual verification overhead by *35%*.],
+  [Built high-throughput *Spring Batch* jobs to automate validation checks, processing *50,000+ daily booking events*.],
+  [Engineered responsive operations dashboards using *React, TanStack Table v8*, and *React Query*, backed by tuned *PostgreSQL* queries that dropped API latency by *20%*.],
+  [Enforced testing and delivery standards with *JUnit, Mockito, Docker*, and automated *CI/CD* pipelines.]
 )
 #v(6pt)
 
@@ -105,8 +101,8 @@
   subtitle: "Freelance Frontend & MERN Developer"
 )
 #list(
-  [Engineered responsive frontend applications and full-stack solutions using the *MERN stack (MongoDB, Express, React, Node.js), Next.js*, and *MySQL*.],
-  [Built tailored platforms using *TanStack, Zod, Material UI (MUI), Bootstrap*, and *React Hook Form*, including dashboards, admin panels, shirt e-commerce stores, cloud note portals, sci-fi research publications, blogs, and B2B/B2C websites.]
+  [Delivered *6+ custom production web applications* (e-commerce, SaaS tools, analytics portals) using the *MERN stack, Next.js*, and *PostgreSQL/MySQL*.],
+  [Implemented type-safe data pipelines and modular UI architectures using *TypeScript, TanStack Table/Query, Zod*, and *Tailwind CSS*.]
 )
 #v(6pt)
 
@@ -157,6 +153,12 @@
 #project("Shadcn UI Form & Table Generators", "Astro, React, TypeScript, TanStack Table v8, Shadcn UI, Zod")
 #list(
   [Built schema generators from JSON/OpenAPI specifications that scaffold typed *Shadcn UI* form schemas and *TanStack Table v8* components, reducing frontend boilerplate setup time by *80%*.]
+)
+// Certifications
+#section("Certifications")
+#list(
+  [*Data Analyst Associate* — DataCamp _(Credential ID: DAA0011831242181 | Issued Sep 2026)_],
+  [*PostgreSQL & Advanced SQL Specialization* — DataCamp _(Joining Data & Manipulating Data in PostgreSQL | Issued Sep 2026)_]
 )
 
 // Education
